@@ -1,0 +1,41 @@
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+  text-align: center;
+}
+ul {
+  padding: 0;
+}
+.Student {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: darkgray solid 0.1rem;
+  padding: 0;
+  list-style-type: none;
+  background-color: lightgray;
+}
+
+.Student > ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.ScoreList {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+li {
+  background-color: lightgrey;
+  color: black;
+  border: solid grey 0.25rem;
+}
